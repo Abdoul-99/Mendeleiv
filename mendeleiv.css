@@ -1,0 +1,138 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:  10px;
+}
+td {
+  text-align: center;
+}
+
+.couleur1{
+    background: #8478B5;
+  }
+  .couleur2{
+    background: #8FDCC6;
+  }
+  .couleur3{
+    background: #B6E0AE;
+  }
+  .couleur4{
+    background: #F09B83;
+  }
+  .couleur5{
+    background: #F0CAA6;
+  }
+  .couleur6{
+    background: #F2FAC9;
+  }
+  .couleur7{
+    background: #FFEFC3;
+  }
+  .couleur8{
+    background: #7AB1D2;
+  }
+  .couleur9{
+    background: #EB96A1;
+  }
+  .couleur10{
+    background: #BB658F;
+  }
+
+  /* @media only screen and (min-width: 1345px) {
+
+    td{
+      font-size: 12px;
+    } */
+
+    @media only screen and (min-width: 1350px) {
+
+      td, h1, p{
+        font-size: 12px;
+      }
+    }
+    @media only screen and (max-width: 1150px) {
+
+      td, h1, p{
+        font-size: 8px;
+      }
+    }
+    @media only screen and (max-width: 947px) {
+
+      td, h1, p{
+        font-size: 6px;
+      }
+    }
+    @media only screen and (max-width: 800px) {
+
+      td, h1, p{
+        font-size: 4px;
+      }
+    }
+    @media only screen and (max-width: 551px) {
+
+      td, h1, p{
+        font-size: 2px;
+      }
+    }
+    @media only screen and (max-width: 326px) {
+
+      td, h1, p{
+        font-size: 1px;
+      }
+    }
+
+    /* @media only screen and (max-width: 1250px) {
+
+      td, h1, p{
+        font-size: 11px;
+      }
+    }
+    @media only screen and (max-width: 1150px) {
+
+      td, h1, p{
+        font-size: 9px;
+      }
+    }
+    @media only screen and (max-width: 9000px) {
+
+      td, h1, p{
+        font-size: 8px;
+      }
+    }
+    @media only screen and (max-width: 800px) {
+
+      td, h1, p{
+        font-size: 6px;
+      }
+    }
+    @media only screen and (max-width:500px) {
+
+      td, h1, p{
+        font-size: 4px;
+      }
+    } */
+   
+    /* @media only screen and (max-width: 600px) {
+        
+      td{
+        font-size: 8px;
+      }
+    } */
+     
+  
+.photo{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  
+}
+.image{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+  margin-top: 40px;
+ 
+
+ }
